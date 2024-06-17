@@ -2,12 +2,12 @@ using Microsoft.AspNetCore.Mvc;
 using MultiLanguageExamManagementSystem.Services;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("/[controller]")]
 public class TranslationController : ControllerBase
 {
-    private readonly TranslationService _translationService;
+    private readonly ITranslationService _translationService;
 
-    public TranslationController(TranslationService translationService)
+    public TranslationController(ITranslationService translationService)
     {
         _translationService = translationService;
     }

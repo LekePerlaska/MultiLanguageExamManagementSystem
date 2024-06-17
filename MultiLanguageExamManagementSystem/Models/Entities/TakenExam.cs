@@ -8,5 +8,7 @@ namespace MultiLanguageExamManagementSystem.Models.Entities
         public int ExamId { get; set; }
         public Exam Exam { get; set; }
         public bool IsCompleted { get; set; }
+		public string Status { get; set; }
+		public int AttemptCount { get; set; }
     }
 }

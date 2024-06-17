@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MultiLanguageExamManagementSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ad1abe169986dacf5fa36cb7f09acc4a28dd13e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c57ae82cc7a4783ed5548dc72729937c2daa0c03")]
 [assembly: System.Reflection.AssemblyProductAttribute("MultiLanguageExamManagementSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MultiLanguageExamManagementSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

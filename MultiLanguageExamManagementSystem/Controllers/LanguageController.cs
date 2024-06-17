@@ -6,14 +6,14 @@ using MultiLanguageExamManagementSystem.Services.IServices;
 namespace MultiLanguageExamManagementSystem.Controllers
 {
 	[ApiController]
-	[Route("api/[controller]")]
+	[Route("[controller]")]
 	public class LanguageController : ControllerBase
 	{
 		private readonly ICultureService _cultureService;
-		private readonly TranslationService _translationService;
+		private readonly ITranslationService _translationService;
 		private readonly ILogger<LanguageController> _logger;
 
-		public LanguageController(ICultureService cultureService, TranslationService translationService, ILogger<LanguageController> logger)
+		public LanguageController(ICultureService cultureService, ITranslationService translationService, ILogger<LanguageController> logger)
 		{
 			_cultureService = cultureService;
 			_translationService = translationService;
