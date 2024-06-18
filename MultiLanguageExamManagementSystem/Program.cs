@@ -27,7 +27,7 @@ builder.Services.AddLocalization(options => options.ResourcesPath = "Resources")
 
 builder.Services.AddScoped<IExamService, ExamService>();
 builder.Services.AddScoped<ICultureService, CultureService>();
-
+builder.Services.AddScoped<ITranslationService, TranslationService>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var logger = new LoggerConfiguration()
