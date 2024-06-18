@@ -2,7 +2,7 @@
 
 namespace MultiLanguageExamManagementSystem.Services
 {
-    public class TranslationService
+    public class TranslationService	: ITranslationService
 	{
  		private readonly HttpClient _httpClient;
     	private readonly string _apiKey;
