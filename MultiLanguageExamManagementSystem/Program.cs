@@ -25,7 +25,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlSer
 builder.Services.AddHttpClient<TranslationService>();
 builder.Services.AddLocalization(options => options.ResourcesPath = "Resources");
 
-//builder.Services.AddScoped<IExamService, ExamService>();
+builder.Services.AddScoped<IExamService, ExamService>();
 builder.Services.AddScoped<ICultureService, CultureService>();
 
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
